@@ -1,0 +1,1 @@
+cmd_usr/include/scsi/ufs/.install := /bin/sh /home/mesquita/aospa/kernel/msm-4.19/scripts/headers_install.sh ./usr/include/scsi/ufs /home/mesquita/aospa/kernel/msm-4.19/include/uapi/scsi/ufs ioctl.h ufs.h; /bin/sh /home/mesquita/aospa/kernel/msm-4.19/scripts/headers_install.sh ./usr/include/scsi/ufs ./include/generated/uapi/scsi/ufs ; touch usr/include/scsi/ufs/.install
